@@ -1,0 +1,25 @@
+{
+  "name": "react-ts-templateable-component-map",
+  "description": "",
+  "version": "0.0.0",
+  "dependencies": {
+    "redux": "3.7.2",
+    "react-redux": "5.0.6",
+    "react-dom": "16.0.0",
+    "react": "16.0.0",
+    "@types/react-redux": "5.0.14",
+    "@types/react-dom": "15.5.4",
+    "@types/react": "16.0.7",
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
