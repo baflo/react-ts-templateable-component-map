@@ -22,6 +22,7 @@ class Post extends React.Component<{ text: string } & React.HTMLAttributes<HTMLD
 // Make a templateable map from the base component
 const Feed = templateable(Post);
 
+// Examples how to use templateable map
 class Templated extends React.Component {
   render() {
     // Some data items that the base component shall use
